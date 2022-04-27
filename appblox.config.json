@@ -1,1 +1,71 @@
-{"name":"hiring-app","type":"appBlox","source":{"https":"https://github.com/joyalneo/hiring-app","ssh":"git@github.com:joyalneo/hiring-app.git"}}
+{
+  "name": "hiring-app",
+  "type": "appBlox",
+  "source": {
+    "https": "https://github.com/joyalneo/hiring-app",
+    "ssh": "git@github.com:joyalneo/hiring-app.git"
+  },
+  "bloxPrefix": "ha",
+  "dependencies": {
+    "container": {
+      "directory": "view/container/_ha_container",
+      "meta": {
+        "name": "container",
+        "type": "ui-container",
+        "source": {
+          "https": "https://github.com/joyalneo/_ha_container",
+          "ssh": "git@github.com:joyalneo/_ha_container.git"
+        },
+        "language": "nodejs",
+        "start": "npx webpack-dev-server",
+        "build": "npm run build",
+        "postPull": "npm i"
+      }
+    },
+    "candidate_listing": {
+      "directory": "view/elements/_ha_candidate_listing",
+      "meta": {
+        "name": "candidate_listing",
+        "type": "ui-elements",
+        "source": {
+          "https": "https://github.com/joyalneo/_ha_candidate_listing",
+          "ssh": "git@github.com:joyalneo/_ha_candidate_listing.git"
+        },
+        "language": "nodejs",
+        "start": "npx webpack-dev-server",
+        "build": "npm run build",
+        "postPull": "npm i"
+      }
+    },
+    "layout": {
+      "directory": "view/elements/_ha_layout",
+      "meta": {
+        "name": "layout",
+        "type": "ui-elements",
+        "source": {
+          "https": "https://github.com/joyalneo/_ha_layout.git",
+          "ssh": "git@github.com:joyalneo/_ha_layout.git"
+        },
+        "language": "nodejs",
+        "start": "npx webpack-dev-server",
+        "build": "npm run build",
+        "postPull": "npm i"
+      }
+    },
+    "edit_modal": {
+      "directory": "view/elements/_ha_edit_modal",
+      "meta": {
+        "name": "edit_modal",
+        "type": "ui-elements",
+        "source": {
+          "https": "https://github.com/joyalneo/_ha_edit_modal.git",
+          "ssh": "git@github.com:joyalneo/_ha_edit_modal.git"
+        },
+        "language": "nodejs",
+        "start": "npx webpack-dev-server",
+        "build": "npm run build",
+        "postPull": "npm i"
+      }
+    }
+  }
+}

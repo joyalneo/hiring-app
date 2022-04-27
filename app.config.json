@@ -1,0 +1,29 @@
+{
+  "app_id": "Dszj1TDLByFj5VGOkJkNY",
+  "app_name": "hiringapp",
+  "environments": {
+    "dev": {
+      "environment_id": "pRntLlwaYV2OuN_1Kc3Ua",
+      "backend_url": "hiringapp-dev-functions.appblox.io",
+      "frontend_url": "hiringapp-dev.appblox.io",
+      "uploads": {
+        "gexScLGL_BngCm25V-uGZ": [
+          "Dszj1TDLByFj5VGOkJkNY/pRntLlwaYV2OuN_1Kc3Ua/view/container/Zyj4hoPSU860FdAWop6RK/0.0.1/container.zip",
+          "Dszj1TDLByFj5VGOkJkNY/pRntLlwaYV2OuN_1Kc3Ua/view/elements/A_BxThOhRvOGIA5tnwrLG/0.0.1/layout.zip",
+          "Dszj1TDLByFj5VGOkJkNY/pRntLlwaYV2OuN_1Kc3Ua/view/elements/DtQSHe35NOUgvglarGHAT/0.0.1/candidate_listing.zip",
+          "Dszj1TDLByFj5VGOkJkNY/pRntLlwaYV2OuN_1Kc3Ua/view/elements/dAnSSEdXLz19xk3eG32l8/0.0.1/edit_modal.zip"
+        ],
+        "6mbJw0Md98poahA9OJDXZ": [
+          "Dszj1TDLByFj5VGOkJkNY/pRntLlwaYV2OuN_1Kc3Ua/view/container/Zyj4hoPSU860FdAWop6RK/0.0.1/container.zip",
+          "Dszj1TDLByFj5VGOkJkNY/pRntLlwaYV2OuN_1Kc3Ua/view/elements/DtQSHe35NOUgvglarGHAT/0.0.1/candidate_listing.zip",
+          "Dszj1TDLByFj5VGOkJkNY/pRntLlwaYV2OuN_1Kc3Ua/view/elements/A_BxThOhRvOGIA5tnwrLG/0.0.1/layout.zip",
+          "Dszj1TDLByFj5VGOkJkNY/pRntLlwaYV2OuN_1Kc3Ua/view/elements/dAnSSEdXLz19xk3eG32l8/0.0.1/edit_modal.zip"
+        ]
+      },
+      "vmUser": true,
+      "bucket": "hiringapp-dev.appblox.io",
+      "host": true
+    }
+  },
+  "vmInstance": true
+}
